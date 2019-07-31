@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ResultVC : UIViewController
-
+//address
+@property (nonatomic, strong)NSArray *address;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>获取地址</title>
-    <script>
-
-    </script>
-</head>
-<body>
-<p class="address">数据展示</p>
-</body>
-</html>
+    <head>
+        <meta charset="UTF-8">
+        <title>获取地址</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+    </head>
+    <body style="background-color: #d93a49;width: 300px;height: 700px;">
+        
+        <h3 id="p1" style="color: white;">数据展示</h3>
+        <p id="p2" style="color: white;font-size: 15px"></p>
+        
+        <script type="text/javascript">
+            function showAddresses(addressString) {
+                document.getElementById("p2").innerHTML = addressString;
+            }
+        </script>
+    </body>
+    </html>
